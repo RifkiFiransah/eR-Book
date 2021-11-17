@@ -10,7 +10,7 @@
     <!-- Sidebar user (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="info">
-        <a href="#" class="d-block">@RifkiFiransah</a>
+        <a href="https://instagram.com/rifkifiransah" class="d-block" target="_blank">@RifkiFiransah</a>
       </div>
     </div>
 

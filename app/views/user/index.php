@@ -65,7 +65,7 @@
         </table>
       </div>
       <div class="card-footer">
-        Copyright-2021 <a href="">@RifkiFiransah</a>
+        Copyright-2021 <a href="https://instagram.com/rifkifiransah" target="_blank">@RifkiFiransah</a>
       </div>
     </div>
   </section>

@@ -50,7 +50,7 @@
             <table class="table table-bordered">
               <thead>
                 <tr>
-                  <th style="width: 10px">#</th>
+                  <th style="width: 10px">No</th>
                   <th>Judul</th>
                   <th>Penerbit</th>
                   <th>Pengarang</th>
@@ -84,7 +84,7 @@
           </div>
           <!-- /.card-body -->
           <div class="card-footer">
-            Copyright-2021 <a href="">@RifkiFiransah</a>
+            Copyright-2021 <a href="https://instagram.com/rifkifiransah" target="_blank">@RifkiFiransah</a>
           </div>
           <!-- /.card-footer-->
         </div>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>eR-Book Login</title>
+  <title>eR-Book Registrasi</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="<?= BASEURL; ?>/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
@@ -27,43 +27,43 @@
     <!-- Login logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Silahkan Login Terebih Dahulu</p>
+        <p class="login-box-msg">Silahkan Registrasi Disini</p>
 
-        <form action="<?= BASEURL; ?>/login/prosesLogin" method="post">
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" name="username" id="username" placeholder="Masukkan Username...">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-user"></span>
-              </div>
+        <form action="<?= BASEURL; ?>/registrasi/simpanUser" method="post">
+          <div class="card-body">
+            <div class="form-group">
+              <label>Nama</label>
+              <input type="text" class="form-control" placeholder="masukkan Nama..." name="nama">
             </div>
-          </div>
-          <div class="input-group mb-3">
-            <input type="password" class="form-control" name="password" id="password" placeholder="Masukkan Pasword...">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-lock"></span>
-              </div>
+            <div class="form-group">
+              <label>Username</label>
+              <input type="text" class="form-control" placeholder="masukkan username..." name="username">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control" placeholder="masukkan password..." name="password">
+            </div>
+            <div class="form-group">
+              <label>Ulangi Password</label>
+              <input type="password" class="form-control" name="ulangi_password">
             </div>
           </div>
           <div class="row">
-            <p class="login-box-msg">Belum Punya Akun? <a href="<?= BASEURL; ?>/registrasi/registrasi">Registrasi</a></p>
-            <div class="col-4">
-              <button type="submit" class="btn btn-primary btn-block">
-                Sign In
-              </button>
-            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Submit
+            </button>
           </div>
-        </form>
       </div>
+      </form>
     </div>
+  </div>
 
-    <!-- Login card body -->
-    <div class="row">
-      <div class="col-sm-12">
-        <?php Flasher::Message(); ?>
-      </div>
+  <!-- Login card body -->
+  <div class="row">
+    <div class="col-sm-12">
+      <?php Flasher::Message(); ?>
     </div>
+  </div>
   </div>
 
   <!-- JQuery -->

@@ -16,6 +16,7 @@
       </div>
 
       <div class="card-body">
+        <img src="<?= BASEURL; ?>/dist/img/avatar5.png" class="rounded float-left" width="100px">
         <div class="row">
           <div class="col-md-2 text-right">
             Nama :
@@ -45,7 +46,7 @@
       </div>
 
       <div class="card-footer">
-        Copyright-2021 <a href="">@RifkiFiransah</a>
+        Copyright-2021 <a href="https://instagram.com/rifkifiransah" target="_blank">@RifkiFiransah</a>
       </div>
     </div>
   </section>
